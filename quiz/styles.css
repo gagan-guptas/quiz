@@ -1,0 +1,213 @@
+/* Basic styling for the quiz page */
+body {
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #7f1ff4;
+    color: #251ca3;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px; /* Increased padding for better spacing */
+    text-align: left;
+}
+
+.startbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #162d6f; 
+    text-align: center;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#quiz-container {
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #5f2348; /* Updated color */
+}
+
+#question-text {
+    font-weight: bold;
+    
+}
+
+#answer-options {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#answer-options li {
+    margin-bottom: 10px;
+}
+
+#timer {
+    margin-top: 15px;
+}
+
+#countdown {
+    font-weight: bold;
+}
+
+button {
+    width:100px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  
+}
+/* Hide the radio buttons */
+
+  /* Hide the radio buttons */
+
+ul {
+    list-style-type: none;
+  }
+/* Optional: Hover effect for button */
+button:hover {
+    background-color: #3e8e41;
+}
+
+/* CSS */
+.button-56 {
+    width: 100px;
+    height:30px;
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 20px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-56:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button-56:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .button-56:active {
+    background-color: #ffdeda;
+    outline: 0;
+  }
+  
+  .button-56:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .button-56 {
+      padding: 0px 40px;
+    }
+  }
+
+  /* CSS */
+  .button-51 {
+    width:150px;
+    background-color: transparent;
+    border: 1px solid #266DB6;
+    box-sizing: border-box;
+    color: #00132C;
+    font-family: "Avenir Next LT W01 Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-51:hover,
+  .button-51:active {
+    outline: 0;
+  }
+  
+  .button-51:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .button-51:before {
+    background-color: #D5EDF6;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .button-51:hover:before {
+    background-color: #6DCFF6;
+  }
+  
+  @media (min-width: 768px) {
+    .button-51 {
+      padding: 16px 32px;
+    }
+  }
